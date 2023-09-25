@@ -8,6 +8,8 @@ from tensorflow import keras
 model1 = keras.models.load_model("mode1.keras")
 model2 = keras.models.load_model("model2.keras")
 
+# i am also adding this line
+
 print(model1.summary())
 print(model2.summary())
 
